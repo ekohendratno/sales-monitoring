@@ -1,0 +1,25 @@
+#message, p.message,div #error,div #success{
+	text-align:left;
+	padding:10px;
+	margin-top:1px;
+	margin-bottom:1px;
+	
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+#message strong, p.message strong,div #error strong,div #success strong{
+}
+#message, .message {
+	background-color: #ffffe0;
+	border: 1px solid #e6db55;
+}
+#success {
+	background-color: #c9f7b4;
+	border: 1px solid #6ec747;
+}
+#error {
+	background-color: #ffebe8;
+	border: 1px solid #c00;
+}
+

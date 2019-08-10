@@ -1,0 +1,107 @@
+ul.mainMenu .topNavLink span.jTips{
+	top:1px;
+	
+	position:absolute;
+	
+	color:#fff;
+	
+	font-size:10px;
+	padding:1px 4px;
+	
+	line-height:9px;	
+	height:10px;
+	
+	border:1px solid #fff;
+	margin:0 0 20px 0;
+	
+	
+	box-shadow:0 1px 0 #000;
+	
+	border-radius:10px;	
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;	
+	
+	box-shadow:0 1px 3px #cccccc;
+	-moz-box-shadow:0 1px 3px #cccccc;
+	-webkit-box-shadow:0 1px 3px #cccccc;
+	
+	/** gradient */
+	background: #ff5e5e; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmNWU1ZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkYjAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #ff5e5e 0%, #db0000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff5e5e), color-stop(100%,#db0000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff5e5e 0%,#db0000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ff5e5e 0%,#db0000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ff5e5e 0%,#db0000 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ff5e5e 0%,#db0000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5e5e', endColorstr='#db0000',GradientType=0 ); /* IE6-8 */
+
+}
+.mainMenu .menuHome,.mainMenu .menuSales,.mainMenu .menuStockGoods,.mainMenu .menuSaler,.mainMenu .menuSalers,.mainMenu .menuRetailer,.mainMenu .menuPrestasi
+{
+	background-image:url(../images/icon-nav-menu.png)!important;
+	background-repeat:no-repeat!important
+}
+
+.mainMenu .menuHome
+{
+	background-position:-5px 8px!important;
+	height:36px;
+	width:20px
+}
+.mainMenu .menuSaler
+{
+	float:left;
+	background-position:-55px 8px!important;
+	height:36px;
+	width:20px;
+	margin:0 5px 0 0;
+}
+.mainMenu .menuSalers
+{
+	float:left;
+	background-position:-82px 8px!important;
+	height:36px;
+	width:20px;
+	margin:0 5px 0 0;
+}
+.mainMenu .menuSales
+{
+	float:left;
+	background-position:-30px 8px!important;
+	height:36px;
+	width:20px;
+	margin:0 5px 0 0;
+}
+.mainMenu .menuStockGoods
+{
+	float:left;
+	background-position:-135px 8px!important;
+	height:36px;
+	width:20px;
+	margin:0 5px 0 0;
+}
+.mainMenu .menuRetailer
+{
+	float:left;
+	background-position:-164px 8px!important;
+	height:36px;
+	width:20px;
+	margin:0 5px 0 0;
+}
+.mainMenu .menuPrestasi
+{
+	float:left;
+	background-position:-192px 8px!important;
+	height:36px;
+	width:20px;
+	margin:0 5px 0 0;
+}
+
+ul.mainMenu li .menuSalesName,ul.mainMenu li .menuSalerName,ul.mainMenu li .menuSalersName,ul.mainMenu li .menuStockGoodsName,ul.mainMenu li .menuRetailerName,ul.mainMenu li .menuPrestasiName
+{
+	float:right;
+	font-weight:normal;
+}
+
